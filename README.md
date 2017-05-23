@@ -54,8 +54,8 @@ MINIFY = {
 # ...
 ```
 
-## Changelog
+# Changelog
 
-## v1.0: 2017-05-21
-#### first update renamed from minify to avoid conflicts
-#### changed from public domain to same license as Pelican
+*v1.0: 2017-05-21*
+* first update renamed from minify to avoid conflicts
+* changed from public domain to same license as Pelican
