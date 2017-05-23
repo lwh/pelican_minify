@@ -3,9 +3,9 @@
 An HTML minification plugin for
 [Pelican](http://pelican.readthedocs.org/en/latest/), the static site generator.
 
-[pelican_minify github](https://github.com/lwh/pelican_minify) 
+[Code on github](https://github.com/lwh/pelican_minify) 
 
-This is a modified version of [pelican-minify](https://github.com/rdegges/pelican-minify/ )
+This is a modified version of [pelican-minify](https://github.com/rdegges/pelican-minify/) [https://github.com/rdegges/pelican-minify/](https://github.com/rdegges/pelican-minify/)
 
 ## Install
 
@@ -56,6 +56,6 @@ MINIFY = {
 
 ## Changelog
 
-v1.0: 2017-05-21
-	- first update renamed from minify to avoid conflicts
-	- changed from public domain to same license as Pelican
+## v1.0: 2017-05-21
+#### first update renamed from minify to avoid conflicts
+#### changed from public domain to same license as Pelican
