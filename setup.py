@@ -7,7 +7,7 @@ setup(
 
     # Basic package information:
     name = 'pelican_minify',
-    version = '1.0',
+    version = '1.1',
     py_modules = ('pelican_minify',),
 
     # Packaging options:
@@ -15,14 +15,14 @@ setup(
     include_package_data = True,
 
     # Package dependencies:
-    install_requires = ['htmlmin>=0.1.5', 'pelican>=3.1.1', 'joblib>=0.9'],
+    install_requires = ['htmlmin>=0.1.5', 'pelican>=4.0.0' ],
 
     # Metadata for PyPI:
     author = 'Luke Hollins',
     author_email = 'luke@farcry.ca',
-    license = 'LICENSE',
+    license = 'AGPL',
     url = 'https://github.com/lwh/pelican_minify',
-    keywords = 'pelican static minify html minification',
+    keywords = 'pelican blog static minify html minification',
     description = ('An HTML minification plugin for Pelican, the static '
             'site generator.'),
     long_description = open(normpath(join(dirname(abspath(__file__)),

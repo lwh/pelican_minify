@@ -4,6 +4,7 @@ An HTML minification plugin for
 [Pelican](http://pelican.readthedocs.org/en/latest/), the static site generator.
 
 [Code on github](https://github.com/lwh/pelican_minify) 
+[Code on gitlab](https://gitlab.com/lwh/pelican_minify) 
 
 This is a modified version of [pelican-minify](https://github.com/rdegges/pelican-minify/) [https://github.com/rdegges/pelican-minify/](https://github.com/rdegges/pelican-minify/)
 
@@ -13,7 +14,6 @@ To install it, copy it into your pelican plugins folder.
 
 ```bash
 $ pip install htmlmin
-$ pip install joblib
 ```
 
 
@@ -55,6 +55,10 @@ MINIFY = {
 ```
 
 # Changelog
+
+*v1.1  2019-09-27*
+* Removed python2 string handling code
+* Removed joblib, no parallel building
 
 *v1.0: 2017-05-21*
 * first update renamed from minify to avoid conflicts
